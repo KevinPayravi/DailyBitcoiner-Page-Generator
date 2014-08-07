@@ -1,0 +1,9 @@
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\bin\Debug\DailyBitcoiner Page Generator.exe.config
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\bin\Debug\DailyBitcoiner Page Generator.exe
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\bin\Debug\DailyBitcoiner Page Generator.pdb
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner_Page_Generator.MainForm.resources
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner_Page_Generator.Properties.Resources.resources
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.csproj.GenerateResource.Cache
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.exe
+c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.pdb
+C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.csprojResolveAssemblyReference.cache
