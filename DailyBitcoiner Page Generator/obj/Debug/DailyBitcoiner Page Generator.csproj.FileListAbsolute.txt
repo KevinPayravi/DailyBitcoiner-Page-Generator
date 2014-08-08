@@ -7,3 +7,7 @@ c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Genera
 c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.exe
 c:\users\kayvan\documents\visual studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.pdb
 C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.csprojResolveAssemblyReference.cache
+C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\bin\Debug\DailyBitcoiner Page Generator.exe.manifest
+C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\bin\Debug\DailyBitcoiner Page Generator.application
+C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.exe.manifest
+C:\Users\Kayvan\Documents\Visual Studio 2013\Projects\DailyBitcoiner Page Generator\DailyBitcoiner Page Generator\obj\Debug\DailyBitcoiner Page Generator.application

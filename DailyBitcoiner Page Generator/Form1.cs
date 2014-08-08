@@ -398,64 +398,45 @@ namespace DailyBitcoiner_Page_Generator
 
             ////////////////////////////////////// OTHER & HOMEPAGE IMAGE //////////////////////////////////////
 
-            if (textBoxOther.Text != "")
-            {
-                string[] lines4 = {"	" + contact,
-                "	" + textBoxOther.Text,
-                "	<br>",
-                "	<br>",
-                "	<br>",
-                "</td>",
-                "<td style=\"width:2%; border-right:#F29320 2px solid;\">",
-                "</td>",
-                "<td style=\"text-align:center; vertical-align:top; width:34%;\">",
-                "	<br>",
-                "	<a href=\"" + textBoxURL.Text + "\"><img src=\"http://www.dailybitcoiner.com/Images/Listings/" + textBoxName.Text + "/Homepage.png\" alt=\"" + textBoxName.Text + "\" width=\"96%\"></a>",
-                "	<h3><i>" + textBoxName.Text + "'s Homepage</i></h3>",
+            string[] lines4 = {"	" + contact};
+            string[] lines5 = {"	" + textBoxOther.Text,};
+            string[] lines6 = {"	<br>",
+            "	<br>",
+            "	<br>",
+            "</td>",
+            "<td style=\"width:2%; border-right:#F29320 2px solid;\">",
+            "</td>",
+            "<td style=\"text-align:center; vertical-align:top; width:34%;\">",
+            "	<br>",
+            "	<a href=\"" + textBoxURL.Text + "\"><img src=\"http://www.dailybitcoiner.com/Images/Listings/" + textBoxName.Text + "/Homepage.png\" alt=\"" + textBoxName.Text + "\" width=\"96%\"></a>",
+            "	<h3><i>" + textBoxName.Text + "'s Homepage</i></h3>",
             };
-            }
-            else
-            {
-                string[] lines4 = {"	" + contact,
-                "	<br>",
-                "	<br>",
-                "	<br>",
-                "</td>",
-                "<td style=\"width:2%; border-right:#F29320 2px solid;\">",
-                "</td>",
-                "<td style=\"text-align:center; vertical-align:top; width:34%;\">",
-                "	<br>",
-                "	<a href=\"" + textBoxURL.Text + "\"><img src=\"http://www.dailybitcoiner.com/Images/Listings/" + textBoxName.Text + "/Homepage.png\" alt=\"" + textBoxName.Text + "\" width=\"96%\"></a>",
-                "	<h3><i>" + textBoxName.Text + "'s Homepage</i></h3>",
-            };
-            }
 
-            ////////////////////////////////////// ALT. IMAGE & FINAL OUTPUT //////////////////////////////////////
+            ////////////////////////////////////// ALT. IMAGE //////////////////////////////////////
 
             Boolean imageChecked = checkBoxImage.Checked;
 
-            if (imageChecked)
+            string[] lines7 = {"	<br>",
+            "	<a class=\"special\" href=\"" + textBoxImageDescription.Text +  "\"><img src=\"http://www.dailybitcoiner.com/Images/Listings/" + textBoxName.Text + "/Image1.jpg\" alt=\"" + textBoxName.Text + "\" width=\"65%\"></a>",
+            "	<h3><i>" + textBoxImageDescription.Text + "</i></h3>",
+            };
+
+            ////////////////////////////////////// OUTPUT INTO FILE //////////////////////////////////////
+
+            System.IO.File.WriteAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines);
+            System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines2);
+            System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines3);
+            System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines4);
+            if (textBoxOther.Text != "")
             {
-                string[] lines5 = {"	<br>",
-                "	<a class=\"special\" href=\"" + textBoxImageDescription.Text +  "\"><img src=\"http://www.dailybitcoiner.com/Images/Listings/" + textBoxName.Text + "/Image1.jpg\" alt=\"" + textBoxName.Text + "\" width=\"65%\"></a>",
-                "	<h3><i>" + textBoxImageDescription.Text + "</i></h3>",
-                "</td>"
-                };
-                System.IO.File.WriteAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines2);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines3);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines4);
                 System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines5);
             }
-            else
+            System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines6);
+            if (imageChecked)
             {
-                System.IO.File.WriteAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines2);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines3);
-                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines4);
-                System.IO.File.AppendAllText(@"C:\Users\Kayvan\Desktop\Output.txt", "\r\n</td>");
+                System.IO.File.AppendAllLines(@"C:\Users\Kayvan\Desktop\Output.txt", lines7);
             }
-
+            System.IO.File.AppendAllText(@"C:\Users\Kayvan\Desktop\Output.txt", "</td>");
         }
 
     }
